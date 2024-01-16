@@ -1,0 +1,103 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.navbar {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.logo {
+    width: 100px; /* Adjust as needed */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header-content {
+    text-align: center;
+    padding: 20px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQNO4UvECasyjH4OwG8bpWwkwllYt7K7JtkMfgwzS9ow4UNCZCTTnh1gW4tqYBKx9kjqA&usqp=CAU-bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+header h1 {
+    color: #fff;
+}
+
+.services, .business-plans, .high-quality-services, .testimonials, .portfolio, .cta {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-left p {
+    margin: 0;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.newsletter-form {
+    display: flex;
+}
+
+.newsletter-form input {
+    margin-right: 10px;
+}
+
+.newsletter-form button {
+    background-color: #f00;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+    
+    .footer-left, .footer-right {
+        text-align: center;
+    }
+    
+    .social-links, .newsletter-form {
+        margin-top: 20px;
+    }
+}
